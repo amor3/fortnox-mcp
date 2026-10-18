@@ -50,6 +50,12 @@ Reads cover invoices, supplier invoices, vouchers, accounts, reports, VAT, inven
 |---|---|
 | ![Connecting ChatGPT to Fortnox](bilder/koppla-chatgpt.jpg) | ![Connecting Claude to Fortnox](bilder/koppla-claude.jpg) |
 
+## Videos
+
+- [Four questions answered from Fortnox](https://youtu.be/0eDhPKpS9Sc) (34 s, Swedish, no sound)
+- [Connect ChatGPT to Fortnox](https://youtu.be/0GvXdpIS67k) (39 s)
+- [Connect Claude to Fortnox](https://youtu.be/S0IwiKPBmr0) (42 s)
+
 ## Security
 
 - Signs in through Fortnox's own OAuth. We never see your Fortnox password.
