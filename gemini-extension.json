@@ -1,0 +1,11 @@
+{
+  "name": "fortnox-mcp",
+  "version": "1.0.1",
+  "description": "Connect Gemini CLI to Fortnox: read your books and propose changes you approve. Hosted MCP server, OAuth sign-in through Fortnox.",
+  "mcpServers": {
+    "fortnox": {
+      "httpUrl": "https://accounting.amore.cloud/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

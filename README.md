@@ -43,6 +43,7 @@ Reads cover invoices, supplier invoices, vouchers, accounts, reports, VAT, inven
 2. **Add the address** `https://accounting.amore.cloud/mcp` in your AI app:
    - **ChatGPT:** Plugins → Add → Create custom MCP server. [Step by step](https://accounting.amore.cloud/en/get-started/chatgpt/?k=github)
    - **Claude:** Customize → Connectors → Add custom connector. [Step by step](https://accounting.amore.cloud/en/get-started/claude/?k=github)
+   - **Gemini CLI:** `gemini extensions install https://github.com/amor3/fortnox-mcp`, then `/mcp auth fortnox` inside Gemini CLI to sign in.
    - **Claude Code, Codex and other MCP clients:** add it as a remote HTTP server.
 3. **Sign in with Fortnox**, choose the company, and choose *read* or *read & write*.
 
