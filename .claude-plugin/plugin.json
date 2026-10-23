@@ -1,0 +1,19 @@
+{
+  "name": "fortnox-mcp",
+  "version": "1.0.1",
+  "description": "Connect Claude Code to Fortnox: read your books and propose changes you approve. Hosted MCP server, OAuth sign-in through Fortnox.",
+  "author": {
+    "name": "Starberg & More Solutions AB",
+    "email": "info@amore.cloud",
+    "url": "https://accounting.amore.cloud/en/"
+  },
+  "homepage": "https://accounting.amore.cloud/en/fortnox-mcp/",
+  "repository": "https://github.com/amor3/fortnox-mcp",
+  "keywords": ["fortnox", "accounting", "bookkeeping", "sweden", "invoices", "vat", "mcp"],
+  "mcpServers": {
+    "fortnox": {
+      "type": "http",
+      "url": "https://accounting.amore.cloud/mcp"
+    }
+  }
+}

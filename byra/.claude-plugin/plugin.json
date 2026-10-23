@@ -1,0 +1,19 @@
+{
+  "name": "fortnox-byra-mcp",
+  "version": "1.0.1",
+  "description": "MoreAI - Byrå: connect Claude Code to your accounting firm's client companies in Fortnox. Hosted MCP server, OAuth sign-in through Fortnox.",
+  "author": {
+    "name": "Starberg & More Solutions AB",
+    "email": "info@amore.cloud",
+    "url": "https://byra.amore.cloud/"
+  },
+  "homepage": "https://byra.amore.cloud/",
+  "repository": "https://github.com/amor3/fortnox-mcp",
+  "keywords": ["fortnox", "accounting-firm", "accounting", "bookkeeping", "sweden", "mcp"],
+  "mcpServers": {
+    "fortnox-byra": {
+      "type": "http",
+      "url": "https://byra.amore.cloud/mcp"
+    }
+  }
+}

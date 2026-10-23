@@ -9,6 +9,7 @@ Ask about your books in plain language, and approve every change before it is wr
 <a href="https://accounting.amore.cloud/en/?k=github">Website</a> ·
 <a href="https://accounting.amore.cloud/en/get-started/?k=github">Get started</a> ·
 <a href="https://www.fortnox.se/integrationer/integration/starberg-more-solutions-ab/more-ai-chatgpt-claude-mcp">Fortnox App Market</a> ·
+<a href="https://byra.amore.cloud/">For accounting firms</a> ·
 <a href="https://glama.ai/mcp/connectors/cloud.amore.accounting/fortnox">Glama</a> ·
 <a href="#på-svenska">Svenska</a>
 </p>
@@ -43,13 +44,24 @@ Reads cover invoices, supplier invoices, vouchers, accounts, reports, VAT, inven
 2. **Add the address** `https://accounting.amore.cloud/mcp` in your AI app:
    - **ChatGPT:** Plugins → Add → Create custom MCP server. [Step by step](https://accounting.amore.cloud/en/get-started/chatgpt/?k=github)
    - **Claude:** Customize → Connectors → Add custom connector. [Step by step](https://accounting.amore.cloud/en/get-started/claude/?k=github)
+   - **Claude Code:** `/plugin marketplace add amor3/fortnox-mcp`, then `/plugin install fortnox-mcp@more-ai`.
    - **Gemini CLI:** `gemini extensions install https://github.com/amor3/fortnox-mcp`, then `/mcp auth fortnox` inside Gemini CLI to sign in.
-   - **Claude Code, Codex and other MCP clients:** add it as a remote HTTP server.
+   - **Codex and other MCP clients:** add it as a remote HTTP server.
 3. **Sign in with Fortnox**, choose the company, and choose *read* or *read & write*.
 
 | ChatGPT | Claude |
 |---|---|
 | ![Connecting ChatGPT to Fortnox](bilder/koppla-chatgpt.jpg) | ![Connecting Claude to Fortnox](bilder/koppla-claude.jpg) |
+
+## For accounting firms
+
+**MoreAI - Byrå ChatGPT & Claude** is the version for accounting firms: one connection per consultant, and the firm's client companies shared across the firm. Same service, its own address:
+
+```
+https://byra.amore.cloud/mcp
+```
+
+229 SEK per consultant and month excluding VAT, 20 days free. More on [byra.amore.cloud](https://byra.amore.cloud/) (in Swedish). Listed in the MCP Registry as `cloud.amore.byra/fortnox`.
 
 ## Videos
 
@@ -83,6 +95,7 @@ This repository describes the service and how to connect to it. The server itsel
 - **Adress:** `https://accounting.amore.cloud/mcp`
 - **Pris:** 119 kr per bolag och månad exklusive moms, via Fortnox App Market. 30 dagar gratis.
 - **Kom igång:** [accounting.amore.cloud/kom-igang/](https://accounting.amore.cloud/kom-igang/?k=github)
+- **För redovisningsbyråer:** [byra.amore.cloud](https://byra.amore.cloud/) — adressen `https://byra.amore.cloud/mcp`, 229 kr per konsult och månad, 20 dagar gratis.
 - **Guider:** [Bokför leverantörsfakturor med AI](https://accounting.amore.cloud/guider/bokfor-leverantorsfakturor-med-ai/?k=github) · [Bokför kvitton med AI](https://accounting.amore.cloud/guider/bokfor-kvitton-med-ai/?k=github) · [Matcha verifikationer med AI](https://accounting.amore.cloud/guider/matcha-verifikationer-med-ai/?k=github)
 
 Drivs av Starberg & More Solutions AB.

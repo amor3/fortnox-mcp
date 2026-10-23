@@ -1,0 +1,24 @@
+{
+  "name": "more-ai",
+  "description": "More AI: hosted MCP server for Fortnox, the Swedish accounting system.",
+  "owner": {
+    "name": "Starberg & More Solutions AB",
+    "email": "info@amore.cloud"
+  },
+  "plugins": [
+    {
+      "name": "fortnox-mcp",
+      "source": "./",
+      "description": "Connect Claude Code to Fortnox: read your books and propose changes you approve.",
+      "category": "finance",
+      "homepage": "https://accounting.amore.cloud/en/fortnox-mcp/"
+    },
+    {
+      "name": "fortnox-byra-mcp",
+      "source": "./byra",
+      "description": "For accounting firms: connect Claude Code to your client companies in Fortnox.",
+      "category": "finance",
+      "homepage": "https://byra.amore.cloud/"
+    }
+  ]
+}
