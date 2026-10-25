@@ -2,7 +2,7 @@
 
 <h1 align="center">Fortnox MCP server — More AI</h1>
 
-<p align="center">Connect <strong>ChatGPT</strong>, <strong>Claude</strong> and other MCP clients to <strong>Fortnox</strong>.<br>
+<p align="center">Connect <strong>ChatGPT</strong>, <strong>Claude</strong>, <strong>Grok</strong> and other MCP clients to <strong>Fortnox</strong>.<br>
 Ask about your books in plain language, and approve every change before it is written.</p>
 
 <p align="center">
@@ -44,6 +44,7 @@ Reads cover invoices, supplier invoices, vouchers, accounts, reports, VAT, inven
 2. **Add the address** `https://accounting.amore.cloud/mcp` in your AI app:
    - **ChatGPT:** Plugins → Add → Create custom MCP server. [Step by step](https://accounting.amore.cloud/en/get-started/chatgpt/?k=github)
    - **Claude:** Customize → Connectors → Add custom connector. [Step by step](https://accounting.amore.cloud/en/get-started/claude/?k=github)
+   - **Grok:** on grok.com, add a custom connector with the name More AI and the address above. Grok Bot adds it when you ask in the chat. Start a question with *Use More:* so Grok asks Fortnox. [Step by step](https://accounting.amore.cloud/en/get-started/grok/?k=github)
    - **Claude Code:** `/plugin marketplace add amor3/fortnox-mcp`, then `/plugin install fortnox-mcp@more-ai`.
    - **Gemini CLI:** `gemini extensions install https://github.com/amor3/fortnox-mcp`, then `/mcp auth fortnox` inside Gemini CLI to sign in.
    - **Codex and other MCP clients:** add it as a remote HTTP server.
@@ -55,7 +56,7 @@ Reads cover invoices, supplier invoices, vouchers, accounts, reports, VAT, inven
 
 ## For accounting firms
 
-**MoreAI - Byrå ChatGPT & Claude** is the version for accounting firms: one connection per consultant, and the firm's client companies shared across the firm. Same service, its own address:
+**MoreAI - Byrå ChatGPT & Claude** is the version for accounting firms: one connection per consultant, and the firm's client companies shared across the firm. Its own address:
 
 ```
 https://byra.amore.cloud/mcp
@@ -90,7 +91,7 @@ This repository describes the service and how to connect to it. The server itsel
 
 ## På svenska
 
-**More AI - ChatGPT & Claude MCP** kopplar ditt Fortnox till ChatGPT, Claude eller en annan AI-app som stöder MCP. Du frågar på vanlig svenska och får svar ur din egen bokföring. Assistenten kan också förbereda ändringar — bokföra ett kvitto, registrera leverantörsfakturor, skicka påminnelser — och ingenting skickas till Fortnox förrän du godkänt just det innehållet.
+**More AI - ChatGPT & Claude MCP** kopplar ditt Fortnox till ChatGPT, Claude, Grok eller en annan AI-app som stöder MCP. Du frågar på vanlig svenska och får svar ur din egen bokföring. Assistenten kan också förbereda ändringar — bokföra ett kvitto, registrera leverantörsfakturor, skicka påminnelser — och ingenting skickas till Fortnox förrän du godkänt just det innehållet.
 
 - **Adress:** `https://accounting.amore.cloud/mcp`
 - **Pris:** 119 kr per bolag och månad exklusive moms, via Fortnox App Market. 30 dagar gratis.
